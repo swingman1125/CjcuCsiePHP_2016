@@ -1,0 +1,161 @@
+{
+	"id": "385c78ea-ddaf-8141-7238-f4fa143ab230",
+	"name": "ApiSample",
+	"description": "所有api測試資料",
+	"order": [],
+	"folders": [
+		{
+			"id": "1cb9559e-98ca-9d79-9db5-155095d89092",
+			"name": "picture",
+			"description": "",
+			"order": [
+				"8a9e4700-62d9-9747-7afd-603381d0907f"
+			],
+			"owner": "692742"
+		},
+		{
+			"id": "9c1ff940-0e8d-f06c-6dac-7ba638680812",
+			"name": "user",
+			"description": "",
+			"order": [
+				"b2fdee51-3b33-601c-f38d-cccb194c30f7",
+				"ca82a69b-6818-8ab9-7e52-2386bd4435cc",
+				"8b12821f-ed72-aa23-310a-f88520ab23b9",
+				"4c524a8c-b192-ce93-0108-88f1ccbe77e7"
+			],
+			"owner": "692742"
+		}
+	],
+	"timestamp": 1472094118680,
+	"owner": "692742",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "4c524a8c-b192-ce93-0108-88f1ccbe77e7",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8080/CjcuCsiePHP_2016/apiSample/user/profile/index.php",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "385c78ea-ddaf-8141-7238-f4fa143ab230",
+			"data": [],
+			"dataMode": "raw",
+			"name": "profile",
+			"description": "profile",
+			"descriptionFormat": "html",
+			"time": 1472109295723,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "9c1ff940-0e8d-f06c-6dac-7ba638680812",
+			"rawModeData": "{\n    \"apikey\":\"jj9j9c2-FKfjwe=/fewfjweFEJIwmelwf\",\n    \"session_token\":\"lPsWQin6FF5JREBku5ZqFuvhhYA=\"\n}\n"
+		},
+		{
+			"id": "8a9e4700-62d9-9747-7afd-603381d0907f",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8080/CjcuCsiePHP_2016/apiSample/picture/upload/index.php",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "385c78ea-ddaf-8141-7238-f4fa143ab230",
+			"data": [
+				{
+					"key": "apikey",
+					"value": "jj9j9c2-FKfjwe=/fewfjweFEJIwmelwf",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "session_token",
+					"value": "lPsWQin6FF5JREBku5ZqFuvhhYA=",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "picture",
+					"value": "picture.png",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "upload",
+			"description": "picture",
+			"descriptionFormat": "html",
+			"time": 1472103426587,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1cb9559e-98ca-9d79-9db5-155095d89092"
+		},
+		{
+			"id": "8b12821f-ed72-aa23-310a-f88520ab23b9",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8080/CjcuCsiePHP_2016/apiSample/user/update_photo/index.php",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "385c78ea-ddaf-8141-7238-f4fa143ab230",
+			"data": [],
+			"dataMode": "raw",
+			"name": "update photo",
+			"description": "update photo",
+			"descriptionFormat": "html",
+			"time": 1472108302556,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "9c1ff940-0e8d-f06c-6dac-7ba638680812",
+			"rawModeData": "{\n    \"apikey\":\"jj9j9c2-FKfjwe=/fewfjweFEJIwmelwf\",\n    \"photo\":\"12_124141312312.jpg\",\n    \"session_token\":\"lPsWQin6FF5JREBku5ZqFuvhhYA=\"\n}\n"
+		},
+		{
+			"id": "b2fdee51-3b33-601c-f38d-cccb194c30f7",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8080/CjcuCsiePHP_2016/apiSample/user/sign_up/index.php",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1472097918329,
+			"name": "sign up",
+			"description": "sign_up api",
+			"collectionId": "385c78ea-ddaf-8141-7238-f4fa143ab230",
+			"responses": [],
+			"rawModeData": "{\n    \"apikey\":\"jj9j9c2-FKfjwe=/fewfjweFEJIwmelwf\",\n    \"email\":\"aaa@gmail.com\",\n    \"password\":\"aabb1122\",\n    \"name\":\"Leo\"\n}\n"
+		},
+		{
+			"id": "ca82a69b-6818-8ab9-7e52-2386bd4435cc",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8080/CjcuCsiePHP_2016/apiSample/user/login/index.php",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "385c78ea-ddaf-8141-7238-f4fa143ab230",
+			"data": [],
+			"dataMode": "raw",
+			"name": "login",
+			"description": "user login",
+			"descriptionFormat": "html",
+			"time": 1472097975672,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "9c1ff940-0e8d-f06c-6dac-7ba638680812",
+			"rawModeData": "{\n    \"apikey\":\"jj9j9c2-FKfjwe=/fewfjweFEJIwmelwf\",\n    \"email\":\"aaa@gmail.com\",\n    \"password\":\"aabb1122\"\n}\n"
+		}
+	]
+}

@@ -37,11 +37,14 @@
                 # 判別使用者是否存在
                 if($sqlResult)
                 {
+                    //目前時間
+                    $timeNow = date('Y-m-d H:i:s', time());
                     # 更新資料
                     $sqlQuery = "UPDATE
                                     User
                                 SET
-                                    User.user_photo = '$mInputArray[photo]'
+                                    User.user_photo = '$mInputArray[photo]' ,
+                                    User.user_updated_time = '$timeNow'
                                 WHERE
                                     User.user_id = '$userId'";
 
